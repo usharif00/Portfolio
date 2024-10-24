@@ -1,0 +1,446 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.2;
+    color: black;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.top .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-shadow:2px 2px 8px black;
+}
+/*====================================================*/
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+    font-weight:bold;
+}
+
+.heading-section {
+    background-image: url("images/Portfolio\ Background.jpeg");
+    background-size: cover; 
+    background-position: center;
+    opacity: 0.89; 
+    z-index: 0; 
+}
+
+/*====================================================*/
+/* Header */
+header {
+    margin-top: 70px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin-top: 90px;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: black; 
+    color: white; 
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold; 
+    transition: background-color 0.3s; 
+}
+
+.download-btn:hover {
+    background-color: white;
+    color:black;
+}
+
+
+/*====================================================*/
+/* About Section */
+#about {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 18px;
+    color: black;
+}
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 70px;
+    margin-bottom: 20px;
+}
+span {
+    font-weight: bold;
+    font-size: 22px;
+}
+#about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#para1 {
+    text-align: center;
+}
+#para2 {
+    text-align:center;
+}
+
+/*====================================================*/
+/* Education Section */
+#education h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#education p {
+    margin-left: 45px;
+}
+
+#education h3 {
+    margin-left: 45px;
+}
+/*====================================================*/
+/* Skills Section */
+#skills {
+    background-color: white;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: black;
+    color: #fff;
+    border-radius: 5px;
+}
+#skills ul li:hover {
+    background-color: white;
+    color: black;
+}
+
+/*====================================================*/
+/* Projects Section */
+#projects {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    border: 2px solid #ccc;
+    padding: 25px;
+    width: 30%;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+#projects p {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        font-size: 20px;
+}
+#projects h2{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.project .btn {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.project .btn:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/*====================================================*/
+/* Contact Section */
+#contact {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    background-color: black;
+    padding: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.social-icons a i {
+    color: white;
+    padding-top: 3.5px;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+    background-color: #333; /* Slight color change on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    margin-top: 50px;
+}
+
+
+/*====================================================*/
+/* Responsive */
+
+
+@media (max-width: 675px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .top {
+        flex-direction: column; 
+        align-items: flex-start; 
+        margin-left: 10px;
+    }
+    .top .logo {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 25px;
+        color: white;
+        text-shadow:2px 2px 8px black;
+    }
+
+    nav {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    nav ul li {
+        margin: 0 5px; 
+    }
+
+    nav ul li a {
+        font-size: 0.8rem; 
+    }
+
+    header h1 {
+        font-size: 1.5rem; 
+    }
+
+    header p {
+        font-size: 11px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #about h2 {
+        font-size: 1.8rem; 
+    }
+    span {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    #para1 {
+        text-align: center;
+        font-size: 12px;
+    }
+    #para2 {
+        text-align:center;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #skills h2 {
+        font-size: 1.8rem; 
+    }
+    #skills ul li {
+        padding: 5px 8px; 
+        margin: 5px;
+        font-size: 12px; 
+    }
+
+    #education h2 {
+        font-weight: bold;
+        font-size: 1.8rem;
+        padding-top: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    #education p {
+        margin-left: 30px;
+        font-size: 12px;
+    }
+    
+    #education h3 {
+        margin-left: 30px;
+        font-size: 1rem; 
+    }
+    #projects h2 {
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+    }
+
+    .projects-container {
+        display: flex;
+        font-size: 15px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .project {
+        border: 2px solid #ccc;
+        padding: 25px;
+        width: 70%;
+        background-color: #f4f4f4;
+        margin-bottom: 20px;
+    }
+    #projects p {
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .project h3 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .projects-container .project p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .project .btn {
+        display: inline-block;
+        background-color: black;
+        color: #fff;
+        padding: 7px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-left: -10px;
+        cursor: pointer;
+    }
+    .project .btn:hover {
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 7px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+
+    #contact {
+        padding: 30px 10px; 
+    }
+
+    #contact h2 {
+        font-size: 1.2rem;
+    }
+
+    .social-icons {
+        flex-direction: row; 
+        flex-wrap: wrap; 
+    }
+
+    .social-icons a {
+        padding: 5px; 
+       
+    }
+    
+    .social-icons a i {
+    color: white;
+    padding-top: 3px;
+    font-size: 18px;
+    height: 20px;
+    width: 20px;
+}
+}
