@@ -6,6 +6,54 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* Light/Dark Mode Toggle */
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.theme-toggle i {
+    margin-left: 20px;
+    color: white;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+body.dark-mode header, 
+body.dark-mode h2, 
+body.dark-mode h3,
+body.dark-mode p {
+    color: #f1f1f1;
+}
+
+body.dark-mode .download-btn {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+body.dark-mode .download-btn:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+body.dark-mode .top .logo {
+    color: #f1f1f1;
+}
+
+body.dark-mode .project, 
+body.dark-mode footer {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.2;
@@ -29,10 +77,10 @@ body {
 
 
 .heading-section {
-    background-image: url("Portfolio\ Background.jpeg");
+    background-image: url("tech\ pic.jpeg");
     background-size: cover; 
     background-position: center;
-    opacity: 0.89; 
+    opacity: 1.0; 
     z-index: 0; 
 }
 
@@ -57,8 +105,8 @@ header p {
 .download-btn {
     display: inline-block;
     padding: 10px 20px; 
-    background-color: black; 
-    color: white; 
+    background-color: white;
+    color:black;
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold; 
@@ -66,8 +114,8 @@ header p {
 }
 
 .download-btn:hover {
-    background-color: white;
-    color:black;
+    background-color: black; 
+    color: white; 
 }
 
 
@@ -143,6 +191,22 @@ span {
     background-color: white;
     color: black;
 }
+/*=============================WORK EXP=======================*/
+#experience h2{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#experience p {
+    margin-left: 45px;
+}
+
+#experience h3 {
+    margin-left: 45px;
+}
 
 /*====================================================*/
 /* Projects Section */
@@ -176,7 +240,13 @@ span {
     padding-top: 50px;
     text-align: center;
     margin-bottom: 20px;
+}
+.project h3 {
+    font-size: 25px;
+}
 
+.project p {
+    font-size: 11px;
 }
 
 .project .btn {
@@ -297,6 +367,7 @@ footer {
         margin-right: 10px;
     }
 
+
     #skills h2 {
         font-size: 1.8rem; 
     }
@@ -323,6 +394,26 @@ footer {
         margin-left: 30px;
         font-size: 1rem; 
     }
+
+    
+    #experience h2 {
+        font-weight: bold;
+        font-size: 1.8rem;
+        padding-top: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    #experience p {
+        margin-left: 30px;
+        font-size: 12px;
+    }
+    
+    #experience h3 {
+        margin-left: 30px;
+        font-size: 1rem; 
+    }
+
     #projects h2 {
         font-size: 1.8rem;
         margin-bottom: 5px;
@@ -337,24 +428,26 @@ footer {
         align-items: center; 
     }
 
-    .project {
+.project {
         border: 2px solid #ccc;
         padding: 25px;
         width: 70%;
         background-color: #f4f4f4;
         margin-bottom: 20px;
     }
-    #projects p {
-        margin-top: 5px;
-        margin-bottom: 15px;
-        font-size: 14px;
-    }
-    .project h3 {
-        font-size: 22px;
+.project h3 {
+        font-size: 24px;
         font-weight: bold;
+}
+
+#projects p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
     }
-    .projects-container .project p {
-        font-size: 12px;
+
+    .projects-container {
+        font-size: 14px;
         margin-top: 10px;
     }
     
