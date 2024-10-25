@@ -406,7 +406,7 @@ footer {
         margin-bottom: 20px;
     }
 .project h3 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: bold;
 }
 
@@ -509,5 +509,18 @@ footer p {
         font-size: 20px;
         color: white;
         text-shadow:2px 2px 8px black;
+    }
+}
+
+@media (max-width:380px) {
+    .project h3 {
+        font-size: 18px;
+        font-weight: bold;
+}
+
+#projects p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
     }
 }
