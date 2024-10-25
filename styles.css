@@ -146,9 +146,10 @@ span {
 #experience h2{
     font-weight: bold;
     font-size: 2rem;
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 100px;
 }
 
 #experience p {
@@ -353,6 +354,7 @@ footer {
         padding-top: 30px;
         text-align: center;
         margin-bottom: 15px;
+        margin-top: 80px;
     }
     
     #experience p {
