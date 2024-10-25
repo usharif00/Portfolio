@@ -176,7 +176,7 @@ span {
 
 .project {
     border: 2px solid #ccc;
-    padding: 25px;
+    padding: 10px;
     width: 30%;
     background-color: #f4f4f4;
     margin-bottom: 20px;
@@ -184,22 +184,19 @@ span {
 #projects p {
         margin-top: 5px;
         margin-bottom: 15px;
-        font-size: 20px;
+        font-size: 18px;
 }
 #projects h2{
     font-weight: bold;
     font-size: 2rem;
     padding-top: 50px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .project h3 {
-    font-size: 25px;
+    font-size: 22px;
 }
 
-.project p {
-    font-size: 11px;
-}
 
 .project .btn {
     display: inline-block;
@@ -210,6 +207,8 @@ span {
     border-radius: 5px;
     margin-top: 20px;
     cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 .project .btn:hover {
     background-color: white;
@@ -219,6 +218,24 @@ span {
     border-radius: 5px;
     margin-top: 20px;
 }
+.project-image {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners */
+    margin-bottom: 5px; /* Space between image and text */
+}
+
+/*================For Not Deployed==================*/
+
+.project .not-deployed {
+    background-color: gray; 
+    color: white; 
+    cursor: not-allowed; 
+}
+.not-deployed:hover {
+    background-color: darkgray; 
+}
+
 
 /*====================================================*/
 /* Contact Section */
@@ -414,6 +431,9 @@ footer {
         margin-top: 15px;
         margin-left: -10px;
         cursor: pointer;
+        margin-left: 8px;
+        margin-right: 8px;
+        
     }
     .project .btn:hover {
         background-color: white;
@@ -423,7 +443,7 @@ footer {
         border-radius: 5px;
         margin-top: 10px;
     }
-
+    
 
     #contact {
         padding: 30px 10px; 
