@@ -303,7 +303,7 @@ footer {
 /* Responsive */
 
 
-@media (max-width: 675px) {
+@media (max-width: 640px) {
     * {
         margin: 0;
         padding: 0;
@@ -434,7 +434,7 @@ footer {
 .project {
         border: 2px solid #ccc;
         padding: 10px;
-        width: 70%;
+        width: 65%;
         background-color: #f4f4f4;
         margin-bottom: 20px;
     }
@@ -521,7 +521,7 @@ footer p {
 }
 
 
-@media (max-width:430px) {
+@media (max-width:530px) {
     * {
         margin: 0;
         padding: 0;
@@ -551,6 +551,61 @@ footer p {
         color: white;
         text-shadow:2px 2px 8px black;
     }
+    .project {
+        border: 2px solid #ccc;
+        padding: 10px;
+        width: 80%;
+        background-color: #f4f4f4;
+        margin-bottom: 20px;
+    }
+.project h3 {
+        font-size: 22px;
+        font-weight: bold;
+}
+
+#projects p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .projects-container {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .project .btn {
+        display: inline-block;
+        background-color: black;
+        color: #fff;
+        padding: 7px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-left: -10px;
+        cursor: pointer;
+        margin-left: 8px;
+        margin-right: 8px;
+        
+    }
+    .project .btn:hover {
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 7px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
+.project .not-deployed {
+    background-color: gray; 
+    color: white; 
+    cursor: not-allowed; 
+}
+.not-deployed:hover {
+    background-color: darkgray; 
+}
+
 }
 
 @media (max-width:380px) {
@@ -633,7 +688,7 @@ footer p {
 .project {
     border: 2px solid #ccc;
     padding: 7px;
-    width: 70%;
+    width: 95%;
     background-color: #f4f4f4;
     margin-bottom: 20px;
 }
