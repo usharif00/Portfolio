@@ -254,6 +254,92 @@ span {
     background-color: darkgray; 
 }
 
+/*====================================================*/
+/* Certificates*/
+#certificates {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.certificates-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 15px;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(50px); /* Slightly shifted down */
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+
+.certificates-container.slide-up {
+    opacity: 1; /* Make visible */
+    transform: translateY(0); /* Slide to original position */
+}
+
+.certificate {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 30%;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.certificate:hover {
+    transform: scale(1.05);
+}
+
+#certificates p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#certificates h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.certificate h3 {
+    font-size: 22px;
+}
+
+.certificate p {
+    font-size: 18px;
+}
+.certificate-image{
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+    margin-bottom: 5px; 
+}
+
+.certificate .btn {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 8px; /* Space between buttons */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.certificate .btn:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
 
 /*====================================================*/
 /* Contact Section */
@@ -276,7 +362,7 @@ span {
     padding: 8px;
     border-radius: 50%;
     display: inline-block;
-    transition: transform 0.2s ease, background-color 0.2s ease;
+    transition: transform 0.5s ease, background-color 0.3s ease;
 }
 
 .social-icons a i {
@@ -439,6 +525,7 @@ footer {
         width: 65%;
         background-color: #f4f4f4;
         margin-bottom: 20px;
+        transition: transform 0.2s;
     }
 .project h3 {
         font-size: 22px;
@@ -468,6 +555,7 @@ footer {
         cursor: pointer;
         margin-left: 8px;
         margin-right: 8px;
+        transition: background-color 0.3s, color 0.3s;
         
     }
     .project .btn:hover {
@@ -486,6 +574,81 @@ footer {
 }
 .not-deployed:hover {
     background-color: darkgray; 
+}
+
+/* Certificates*/
+#certificates {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.certificates-container {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.certificate {
+    border: 2px solid #ccc;
+        padding: 10px;
+        width: 65%;
+        background-color: #f4f4f4;
+        margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.certificate:hover {
+    transform: scale(1.05);
+}
+
+#certificates p {
+    margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+}
+
+#certificates h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.certificate h3 {
+    font-size: 22px;
+        font-weight: bold;
+}
+
+.certificate p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.certificate .btn {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: -10px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.certificate .btn:hover {
+    background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 7px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
 }
 
     #contact {
@@ -588,7 +751,7 @@ footer p {
         cursor: pointer;
         margin-left: 8px;
         margin-right: 8px;
-        
+        transition: background-color 0.3s, color 0.3s;
     }
     .project .btn:hover {
         background-color: white;
@@ -606,6 +769,76 @@ footer p {
 }
 .not-deployed:hover {
     background-color: darkgray; 
+}
+
+/* Certificates*/
+#certificates {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.certificates-container {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.certificate {
+    border: 2px solid #ccc;
+        padding: 10px;
+        width: 65%;
+        background-color: #f4f4f4;
+        margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.certificate:hover {
+    transform: scale(1.05);
+}
+
+#certificates p {
+    margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+}
+
+#certificates h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.certificate h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.certificate p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.certificate .btn {
+    display: inline-block;
+        background-color: black;
+        color: #fff;
+        padding: 7px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-left: -10px;
+        cursor: pointer;
+        margin-left: 8px;
+        margin-right: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.certificate .btn:hover {
+    background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 7px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
 }
 
 }
@@ -685,6 +918,7 @@ footer p {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center; 
+    
 }
 
 .project {
@@ -693,6 +927,10 @@ footer p {
     width: 95%;
     background-color: #f4f4f4;
     margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.project:hover {
+    transform: scale(1.05);
 }
 
 
@@ -719,7 +957,7 @@ footer p {
     cursor: pointer;
     margin-left: 8px;
     margin-right: 8px;
-    
+    transition: background-color 0.3s, color 0.3s;
 }
 .project .btn:hover {
     background-color: white;
@@ -751,4 +989,75 @@ footer p {
     border-radius: 5px;
     margin-top: 10px;
 }
+
+/* Certificates*/
+#certificates {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.certificates-container {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.certificate {
+    border: 2px solid #ccc;
+    padding: 7px;
+    width: 95%;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.certificate:hover {
+    transform: scale(1.05);
+}
+
+#certificates p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+#certificates h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.certificate h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.certificate p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.certificate .btn {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: -10px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.certificate .btn:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
 }
