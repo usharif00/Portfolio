@@ -1,0 +1,1050 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.2;
+    color: black;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.top .logo {
+   
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-shadow:2px 2px 8px black;
+}
+
+
+.heading-section {
+    background-image: url("Images/tech\ pic.jpeg");
+    background-size: cover; 
+    background-position: center;
+    opacity: 1; 
+    z-index: 0; 
+}
+
+/*====================================================*/
+/* Header */
+header {
+    margin-top: 70px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin-top: 90px;
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.download-btn:hover {
+    background-color: black; 
+    color: white; 
+}
+
+
+/*====================================================*/
+/* About Section */
+#about {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 18px;
+    color: black;
+}
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 70px;
+    margin-bottom: 20px;
+}
+span {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#para1 {
+    text-align: center;
+}
+#para2 {
+    text-align:center;
+}
+
+/*====================================================*/
+/* Education Section */
+#education h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#education p {
+    margin-left: 25px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+#education h3 {
+    margin-left: 25px;
+    text-align: left;
+}
+.mid {
+    display: flex;
+    gap: 10px; 
+    justify-content: space-between;
+}
+.container {
+    flex: 1; 
+    padding: 10px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid #dddddd86; 
+}
+/*====================================================*/
+/* Skills Section */
+#skills {
+    background-color: white;
+    padding: 40px 10px;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: black;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+#skills ul li:hover {
+    background-color: white;
+    color: black;
+}
+/*=============================WORK EXP=======================*/
+#experience h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+#experience p {
+    margin-left: 25px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+#experience h3 {
+    margin-left: 25px;
+    text-align: left;
+}
+
+/*====================================================*/
+/* Projects Section */
+#projects {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 30%;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.project:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+#projects p {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        font-size: 18px;
+}
+#projects h2{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.project h3 {
+    font-size: 22px;
+}
+
+
+.project .btn {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: background-color 0.3s, color 0.3s; /* Added transitions */
+}
+.project .btn:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.project-image {
+    width: 100%; 
+    height: auto; 
+    border-radius: 0; 
+    margin-bottom: 5px; 
+}
+
+/*================For Not Deployed==================*/
+
+.project .not-deployed {
+    background-color: gray; 
+    color: white; 
+    cursor: not-allowed; 
+}
+.not-deployed:hover {
+    background-color: darkgray; 
+}
+
+/*====================================================*/
+/* Certificates*/
+#certificates {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.certificates-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 15px;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(50px); /* Slightly shifted down */
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+
+.certificates-container.slide-up {
+    opacity: 1; /* Make visible */
+    transform: translateY(0); /* Slide to original position */
+}
+
+.certificate {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 30%;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.certificate:hover {
+    transform: scale(1.05);
+}
+
+#certificates p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#certificates h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.certificate h3 {
+    font-size: 22px;
+}
+
+.certificate p {
+    font-size: 18px;
+}
+.certificate-image{
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+    margin-bottom: 5px; 
+}
+
+.certificate .btn {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 8px; /* Space between buttons */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.certificate .btn:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+/*====================================================*/
+/* Contact Section */
+#contact {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    background-color: black;
+    padding: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform 0.5s ease, background-color 0.3s ease;
+}
+
+.social-icons a i {
+    color: white;
+    padding-top: 3.5px;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
+    background-color: #333; 
+}
+
+
+
+/*====================================================*/
+/* Responsive */
+
+
+@media (max-width: 640px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .top {
+        flex-direction: column; 
+        align-items: flex-start; 
+        margin-left: 10px;
+    }
+    .top .logo {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 25px;
+        color: white;
+        text-shadow:2px 2px 8px black;
+    }
+
+    header h1 {
+        font-size: 2rem; 
+    }
+
+    header p {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #about h2 {
+        font-size: 1.8rem; 
+    }
+    span {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    #para1 {
+        text-align: center;
+        font-size: 12px;
+    }
+    #para2 {
+        text-align:center;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    #skills h2 {
+        font-size: 1.8rem; 
+    }
+    #skills ul li {
+        padding: 5px 8px; 
+        margin: 5px;
+        font-size: 12px; 
+    }
+
+    #education h2 {
+        font-weight: bold;
+        font-size: 1.8rem;
+        padding-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #education p {
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    #education h3 {
+        margin-left: 30px;
+        font-size: 1rem; 
+    }
+
+    .mid {
+        flex-direction: column;
+    }
+    .mid {
+        display: flex;
+        gap: 10px; 
+        justify-content: space-between;
+    }
+    .container {
+        flex: 1; 
+        padding: 10px;
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        box-sizing: border-box;
+        border: 2px solid #dddddd86; 
+    }
+
+
+    #experience h2 {
+        font-weight: bold;
+        font-size: 1.8rem;
+        padding-top: 20px;
+        text-align: center;
+        margin-bottom: 30px;        
+    }
+    
+    #experience p {
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    #experience h3 {
+        margin-left: 30px;
+        font-size: 1rem; 
+    }
+
+    #projects h2 {
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+    }
+
+    .projects-container {
+        display: flex;
+        font-size: 15px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+.project {
+        border: 2px solid #ccc;
+        padding: 10px;
+        width: 65%;
+        background-color: #f4f4f4;
+        margin-bottom: 20px;
+        transition: transform 0.2s;
+    }
+.project h3 {
+        font-size: 22px;
+        font-weight: bold;
+}
+
+#projects p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .projects-container {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .project .btn {
+        display: inline-block;
+        background-color: black;
+        color: #fff;
+        padding: 7px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-left: -10px;
+        cursor: pointer;
+        margin-left: 8px;
+        margin-right: 8px;
+        transition: background-color 0.3s, color 0.3s;
+        
+    }
+    .project .btn:hover {
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 7px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
+.project .not-deployed {
+    background-color: gray; 
+    color: white; 
+    cursor: not-allowed; 
+}
+.not-deployed:hover {
+    background-color: darkgray; 
+}
+
+/* Certificates*/
+#certificates {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.certificates-container {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.certificate {
+    border: 2px solid #ccc;
+        padding: 10px;
+        width: 65%;
+        background-color: #f4f4f4;
+        margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.certificate:hover {
+    transform: scale(1.05);
+}
+
+#certificates p {
+    margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+}
+
+#certificates h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.certificate h3 {
+    font-size: 22px;
+        font-weight: bold;
+}
+
+.certificate p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.certificate .btn {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: -10px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.certificate .btn:hover {
+    background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 7px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+}
+
+    #contact {
+        padding: 30px 10px; 
+    }
+
+    #contact h2 {
+        font-size: 1.2rem;
+    }
+
+    .social-icons {
+        flex-direction: row; 
+        flex-wrap: wrap; 
+    }
+
+    .social-icons a {
+        padding: 5px; 
+       
+    }
+    
+    .social-icons a i {
+    color: white;
+    padding-top: 3px;
+    font-size: 18px;
+    height: 20px;
+    width: 20px;
+}
+
+}
+
+
+@media (max-width:530px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.2;
+        color: black;
+    }
+    
+    header h1 {
+        font-size: 1.5rem; 
+    }
+
+    header p {
+        font-size: 11px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .top .logo {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        text-shadow:2px 2px 8px black;
+    }
+    .project {
+        border: 2px solid #ccc;
+        padding: 10px;
+        width: 80%;
+        background-color: #f4f4f4;
+        margin-bottom: 20px;
+    }
+.project h3 {
+        font-size: 22px;
+        font-weight: bold;
+}
+
+#projects p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .projects-container {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .project .btn {
+        display: inline-block;
+        background-color: black;
+        color: #fff;
+        padding: 7px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-left: -10px;
+        cursor: pointer;
+        margin-left: 8px;
+        margin-right: 8px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .project .btn:hover {
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 7px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    
+.project .not-deployed {
+    background-color: gray; 
+    color: white; 
+    cursor: not-allowed; 
+}
+.not-deployed:hover {
+    background-color: darkgray; 
+}
+
+/* Certificates*/
+#certificates {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.certificates-container {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.certificate {
+    border: 2px solid #ccc;
+        padding: 10px;
+        width: 65%;
+        background-color: #f4f4f4;
+        margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.certificate:hover {
+    transform: scale(1.05);
+}
+
+#certificates p {
+    margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+}
+
+#certificates h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.certificate h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.certificate p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.certificate .btn {
+    display: inline-block;
+        background-color: black;
+        color: #fff;
+        padding: 7px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 15px;
+        margin-left: -10px;
+        cursor: pointer;
+        margin-left: 8px;
+        margin-right: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.certificate .btn:hover {
+    background-color: white;
+        color: black;
+        font-weight: bold;
+        padding: 7px 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+}
+
+}
+
+@media (max-width:380px) {
+
+    #education h2 {
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding-top: 10px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    #education p {
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    #education h3 {
+        margin-left: 30px;
+        font-size: 1rem; 
+    }
+
+    .mid {
+        flex-direction: column;
+    }
+    .mid {
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .container {
+        flex: 1; 
+        padding: 10px;
+        padding-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        box-sizing: border-box;
+        border: 2px solid #dddddd86; 
+    }
+
+
+    #experience h2 {
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding-top: 10px;
+        text-align: center;
+        margin-bottom: 15px;        
+    }
+    
+    #experience p {
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    
+    #experience h3 {
+        margin-left: 30px;
+        font-size: 1rem; 
+    }
+
+
+.project h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#projects h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.projects-container {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.project {
+    border: 2px solid #ccc;
+    padding: 7px;
+    width: 95%;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.project:hover {
+    transform: scale(1.05);
+}
+
+
+#projects p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.projects-container {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.project .btn {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: -10px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.project .btn:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.project .not-deployed {
+    background-color: gray; 
+    color: white; 
+    cursor: not-allowed;
+    padding: 7px 13px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: -10px;
+    
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.not-deployed:hover {
+    background-color: darkgray; 
+    font-weight: bold;
+    padding: 7px 13px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Certificates*/
+#certificates {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.certificates-container {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.certificate {
+    border: 2px solid #ccc;
+    padding: 7px;
+    width: 95%;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+.certificate:hover {
+    transform: scale(1.05);
+}
+
+#certificates p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+#certificates h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.certificate h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.certificate p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.certificate .btn {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: -10px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.certificate .btn:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+}
